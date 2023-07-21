@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+.main{
+    /* background-color: rgb(30, 9, 49); */
+    /* background-color: bisque; */
+    background-color: rgb(163, 107, 37);
+    width: 60%;
+    height: 530px;
+    margin: 50px auto;
+}
+
+.title{
+    background-color: rgb(163, 107, 37);
+    /* background-color: bisque; */
+    height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+.analog{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(30, 9, 49);
+}
+
+.specialists{
+    color: rgb(30, 9, 49);
+    font-size: x-large
+}
+
+.the{
+    color: rgb(30, 9, 49);
+    font-size: large;
+}
+
+hr{
+    height:2px;
+    border-width:0;
+    olor: rgb(30, 9, 49);
+    background-color: rgb(30, 9, 49);
+}
+
+.hr2{
+    margin-top: 6px;
+    height:2px;
+    border-width:0;
+    olor: rgb(30, 9, 49);
+    background-color: rgb(30, 9, 49);
+
+}
+
+.nav {
+    background-color: rgb(30, 9, 49);
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.text{
+    background-color: rgb(30, 9, 49);
+    text-align: center;
+    padding: 10px 40px;
+    
+  }
+
+  .myname, h5{
+    text-align: center;
+    color: rgb(30, 9, 49);
+    padding-top: 6px;
+  }
+
+  .pic{
+    text-align: center;
+    padding-top: 30px;
+
+  }
